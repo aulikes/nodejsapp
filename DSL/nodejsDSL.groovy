@@ -16,7 +16,6 @@ job('Aplicacion Node.js DSL') {
         shell("npm install")
     }
     publishers {
-	    mailer('aulikes@hotmail.com', false, true)
-        }
+	mailer('aulikes@hotmail.com', false, true)
     }
 }
