@@ -22,7 +22,4 @@ job('Aplicacion Node.js DSL Docker') {
             skipDecorate()
         }
     }
-    publishers {
-	mailer('aulikes@hotmail.com', false, true)
-    }
 }
