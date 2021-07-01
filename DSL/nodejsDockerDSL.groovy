@@ -23,6 +23,6 @@ job('Aplicacion Node.js DSL Docker') {
         }
     }
     publishers {
-	    mailer('aulikes@hotmail.com', false, true)
+	    mailer('aulikes@hotmail.com', true, true)
     }
 }
