@@ -20,6 +20,7 @@ job('Aplicacion Node.js DSL Docker') {
             forcePull(false)
             createFingerprints(false)
             skipDecorate()
+	    forceTag(false)
         }
     }
     publishers {
